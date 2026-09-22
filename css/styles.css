@@ -1,0 +1,17 @@
+.barracustom {
+    background-color: rgb(158, 76, 185);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Hacemos que todas las imagenes del proyecto tengan borde redondeado*/
+img[src^="img/"] {
+  border-radius: 30%;
+}
+
+#lead_info {
+    color: rgba(255, 255, 255, 0.9);
+}

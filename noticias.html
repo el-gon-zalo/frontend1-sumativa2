@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Tiendita - Noticias</title>
+  
+
+    <!--Styles css custom-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!--CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!--Barra de navegacion navbar-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark barracustom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img
+                src="img/logo.png"
+                alt="Logo"
+                width="40"
+                height="40"
+                title="Logo"
+                loading="lazy"
+            /></a>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html" id="menu_inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mercado.html" id="menu_mercado">Mercado</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html" id="menu_noticias">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html" id="menu_nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="carrito.html" id="menu_carrito">Carrito</a>
+            </li>
+          </ul>
+        </div>
+        <p class="nav-link mb-0" id="lead_info">La Tiendita - Noticias</p>
+      </div>
+    </nav>
+    </header>
+
+    <section id="inicio" class="bg-light py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <p class="text-primary fw-semibold mb-2">¡Todo Videojuegos!</p>
+            <h1 class="display-3 fw-bold">La Tiendita</h1>
+            <p class="lead">Encuentra aquí todo lo relacionado a videojuegos.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center py-4">
+        <img
+                src="img/logo.png"
+                alt="Logo"
+                width="150"
+                height="150"
+                title="Logo"
+                loading="lazy"
+        />
+        </div>
+
+    </section>
+   
+</head>
+<body>
+
+    <section id="noticias-texto" class="text-center py-4">
+
+       <img
+                src="img/noticias.jpg"
+                alt="Logo"
+                width="40"
+                height="40"
+                title="Logo"
+                loading="lazy"
+            />
+          <p class="text-center py-4" >
+            Aquí encontrarás las úlimas novedades del mundo Gaming.
+          </p>   
+
+    </section>
+
+    <section id="area-noticias" class="container py-4 text-center">
+        <div id="noticias" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        </div>
+      </section>
+
+  
+    <footer class="text-white text-end py-4 barracustom">
+        <div class="container">
+        <p class="mb-0">Contacto: gonz.riquelme@duocuc.cl</p>
+        </div>
+        
+    </footer>
+
+     <!--JS BOOTSTRAP-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!--JS-->
+    <script src="js/dom.js"></script>
+</body>
+</html>

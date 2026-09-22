@@ -1,0 +1,31 @@
+
+[
+  {
+    "id": "noticia-1",
+    "categoria": "noticias",
+    "imagen": {
+      "src": "https://picsum.photos/300/100?random=1",
+      "alt": "Noticia 1"
+    },
+    "titulo": "Últimas novedades de Blizzard",
+    "descripcion": "Blizzard ha anunciado Diablo 5 y un nuevo 'shooter' de StarCraft...",
+    "boton": {
+      "texto": "Ir",
+      "url": "noticias.html"
+    }
+  },
+  {
+    "id": "noticia-2",
+    "categoria": "noticias",
+    "imagen": {
+      "src": "https://picsum.photos/300/100?random=2",
+      "alt": "Noticia 2"
+    },
+    "titulo": "Xbox y Project Helix",
+    "descripcion": "Durante la Gamescom, se confirmó que la próxima generación de Xbox (bajo el nombre en clave Project Helix) no será una sola consola...",
+    "boton": {
+      "texto": "Ir",
+      "url": "noticias.html"
+    }
+  }
+]
